@@ -1,0 +1,1 @@
+The approach here is logically equivalent to the approach used on Query 1.6. The main difference is we use max aggregate instead of a count.

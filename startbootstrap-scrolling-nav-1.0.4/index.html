@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CS240A Project Presentation</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll cute-text" href="#page-top">CS240A</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav cute-text">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Project 1</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Project 2</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Report</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>CS240A Project Navigation</h1>
+
+
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="row text-left">
+                            <div class="col-md-4">
+                            </div>
+
+                            <div class="col-md-4">
+                              <img height="200" width="300" class="img-responsive" alt="Responsive image" src="img/profile.png">
+                            </div>
+
+                            <div class="col-md-4">
+                            </div>
+                          </div>
+                    </div>
+                    <br/>
+                    <a class="btn btn-default page-scroll cute-text" href="#about">Start looking around!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4">
+                    <h1>Project 1</h1>
+                </div>
+                <div class="col-lg-4">
+                  <a class="btn btn-default page-scroll cute-text" href="#services">Go to Project 2</a>
+                </div>
+            </div>
+            <div class="col-lg-12">
+              <hr>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 text-left">
+                  <div class="cute-text">Preparation and Input</div>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <div class="cute-text">Results</div>
+                </div>
+                <div class="col-md-9 text-left">
+                    <p class="main-text">In this project, I use BaseX to compile and test the queries.
+                      The <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/util.xq"><code>util.xq</code></a> contains multiple global functions that frequently used in
+                      many queries. <br/>
+                      The input file is <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/v-emps.xml"><code>v-emps.xml</code></a> and
+                      <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/v-depts.xml"><code>v-depts.xml</code></a>
+                      <hr>
+                    </p>
+                    <div style="line-height: 200%;">
+                    <ol class="main-text">
+                      <li> Selection and Temporal Projection.
+                        Print the salary history of employee "Anneke Preusig."</li>
+                        <div style="word-spacing: 30px;">
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q1.xq"><code>Query_1</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q1_result.xml"><code>Result_1</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q1_style.xml"><code>Styled_Result</code></a>
+                        </div>
+                      <li>Temporal Snapshot. Print  the name,  salary and department of
+                        each employee who, on 1995-01-01, was making more than $80,000.</li>
+                        <div style="word-spacing: 30px;">
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/util.xq"><code>util.xq</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q2.xq"><code>Query_2</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q2_result.xml"><code>Result_2</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q2_style.xml"><code>Styled_Result</code></a>
+                        </div>
+                      <li>Temporal Slicing. For all departments, print their histories
+                        for the period starting on 1994-05-01 and ending 1996-05-06.</li>
+                        <div style="word-spacing: 30px;">
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/util.xq"><code>util.xq</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q3.xq"><code>Query_3</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q3_result.xml"><code>Result_3</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q3_style.xml"><code>Styled_Result</code></a>
+                        </div>
+                      <li>Duration after Coalescing. For each employee, find the longest
+                        period (or periods) during which he/she went with no change in
+                        salary: for each employee  print the period(s), his/her name and the actual salary.</li>
+                        <div style="word-spacing: 30px;">
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/util.xq"><code>util.xq</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q4.xq"><code>Query_4</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q4_result.xml"><code>Result_4</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q4_style.xml"><code>Styled_Result</code></a>
+                        </div>
+                      <li>Temporal Join. For each employee find the longest consecuitive period  in which he/she
+                        worked  in the same  department and  the same department manager: Print the  employee number,
+                         his/her department number and  name,   his/her manager number,  and the period.</li>
+                         <div style="word-spacing: 30px;">
+                           <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/util.xq"><code>util.xq</code></a>
+                           <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q5.xq"><code>Query_5</code></a>
+                           <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q5_result.xml"><code>Result_5</code></a>
+                           <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q5_style.xml"><code>Styled_Result</code></a>
+                         </div>
+                      <li>Temporal Avg.  Print the history of the average salary for (i) the whole company and (ii) each job title. </li>
+                      <div style="word-spacing: 30px;">
+                        <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/util.xq"><code>util.xq</code></a>
+                        <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q6_1.xq"><code>Query_6_1</code></a>
+                        <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q6_1_result.xml"><code>Result_6_1</code></a>
+                        <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q61_style.xml"><code>Styled_Result</code></a>
+                      </div>
+                      <div style="word-spacing: 30px;">
+                        <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/util.xq"><code>util.xq</code></a>
+                        <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/problem62.txt"><code>Query_6_2</code></a>
+                        <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q6_2_result.xml"><code>Result_6_2</code></a>
+                        <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q62_style.xml"><code>Styled_Result</code></a>
+                      </div>
+                      <li>Temporal Max.   For the employees  in department d005,  find  the maximum of their salaries over time,
+                        and print the history of such a maximum.</li>
+                        <div style="word-spacing: 30px;">
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/util.xq"><code>util.xq</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q7.xq"><code>Query_7</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q7_result.xml"><code>Result_7</code></a>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/q7_style.xml"><code>Styled_Result</code></a>
+                        </div>
+                        <div>
+                          <h1>Report:</h1>
+                          <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/Project1_report_MannaLin.pdf"><code>Project 1 Report</code></a>
+                        </div>
+                    </ol>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Project 2 coming soon!</h1>
+                    <hr/>
+                </div>
+            </div>
+
+            <div class="row text-left">
+                <div class="col-md-4">
+                </div>
+
+                <div class="col-md-4">
+                  <img height="200" width="300" class="img-responsive" alt="Responsive image" src="img/submarine.png">
+                </div>
+
+                <div class="col-md-4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Report Download</h1>
+                    <hr>
+                    <div>
+                      <h1>Report 1:</h1>
+                      <a href="http://web.cs.ucla.edu/~linmanna/cs240a/project/Project1_report_MannaLin.pdf"><code>Project 1 Report</code></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>

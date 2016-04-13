@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Project1</title>
+    </head>
+    <body style="color: black; background-color: white;" cz-shortcut-listen="true">
+        <h2 align="center">CS240A Final: Project 1</h2>
+        <div style="text-align:right; font-style:italic; font-size:0.85em">Justin Wood<br />CS 240A Databases and Knowledge Bases<br />12/03/2014</div>
+        
+        <blockquote>
+			<a href="raw.zip">raw.zip</a>
+            <p>
+                <strong>input:</strong>
+                <div style="padding-left:15px">
+                    <a href="v-emps.xml">v-emps.xml</a>
+                    <br />
+                    <br />
+                    <a href="v-depts.xml">v-depts.xml</a>
+                </div>
+            </p>
+            <p><strong>answers:</strong></p>
+        </blockquote>
+        <ol>
+            <ol>
+                <li>Selection and Temporal Projection. Retrieve the employment history of employee "Kyoichi
+                    Maliniak" (i.e., the departments where she worked and the periods during which she
+                    worked there).
+                    <br />
+                    <br />
+                    <ol>
+                        <a href="util.xquery">util.xquery</a>
+                        <a href="q1.xquery" style="margin-left:10px;">q1.xquery</a>
+                        <a href="q1.xml" style="margin-left:10px">q1.xml</a>
+                        <a href="q1.xsl" style="margin-left:10px">q1.xsl</a>
+                        <a href="q1_styled.xml" style="margin-left:10px">q1 (styled)</a>
+                    </ol>
+                    <br />
+                </li>
+                <li>Temporal Snapshot. Retrieve the name,&nbsp; salary and department of &nbsp;each
+                    employee who, on 1991-01-06 was making less than $52000.
+                    <br />
+                    <br />
+                    <ol>
+                        <a href="util.xquery">util.xquery</a>
+                        <a href="q2.xquery" style="margin-left:10px;">q2.xquery</a>
+                        <a href="q2.xml" style="margin-left:10px">q2.xml</a>
+                        <a href="q2.xsl" style="margin-left:10px">q2.xsl</a>
+                        <a href="q2_styled.xml" style="margin-left:10px">q2 (styled)</a>
+                    </ol>
+                    <br />
+                </li>
+                <li>Temporal Slicing. For all departments, show their history in the period starting
+                    on 1988-05-01 and ending 1998-05-06.<br />
+                    <br />
+                    <ol>
+                        <a href="util.xquery">util.xquery</a>
+                        <a href="q3.xquery" style="margin-left:10px;">q3.xquery</a>
+                        <a href="q3.xml" style="margin-left:10px">q3.xml</a>
+                        <a href="q3.xsl" style="margin-left:10px">q3.xsl</a>
+                        <a href="q3_styled.xml" style="margin-left:10px">q3 (styled)</a>
+                    </ol>
+                    <br />
+                </li>
+                <li>Duration: For each employee, show the longest period during which he/she went with
+                    no change in salary and his/her salary during that time.
+                    <br />
+                    <br />
+                    <ol>
+                        <a href="util.xquery">util.xquery</a>
+                        <a href="q4.xquery" style="margin-left:10px;">q4.xquery</a>
+                        <a href="q4.xml" style="margin-left:10px">q4.xml</a>
+                        <a href="q4.xsl" style="margin-left:10px">q4.xsl</a>
+                        <a href="q4_styled.xml" style="margin-left:10px">q4 (styled)</a>
+                    </ol>
+                    <br />
+                </li>
+                <li>Temporal Join. For each employee show&nbsp; his/her empno, title, &nbsp; deptno,&nbsp;
+                    deptname&nbsp; throughout his/her employment history.
+                    <br />
+                    <br />
+                    <ol>
+                        <a href="util.xquery">util.xquery</a>
+                        <a href="q5.xquery" style="margin-left:10px;">q5.xquery</a>
+                        <a href="q5.xml" style="margin-left:10px">q5.xml</a>
+                        <a href="q5.xsl" style="margin-left:10px">q5.xsl</a>
+                        <a href="q5_styled.xml" style="margin-left:10px">q5 (styled)</a>
+                    </ol>
+                    <br />
+                </li>
+                <li>Temporal Count: For each department, show the history of its employee count.
+                    <br />
+                    <br />
+                    <ol>
+                        <a href="util.xquery">util.xquery</a>
+                        <a href="q6.xquery" style="margin-left:10px;">q6.xquery</a>
+                        <a href="q6.xml" style="margin-left:10px">q6.xml</a>
+                        <a href="q6.xsl" style="margin-left:10px">q6.xsl</a>
+                        <a href="q6_styled.xml" style="margin-left:10px">q6 (styled)</a>
+                        <a href="q6.txt" style="margin-left:10px">explanation</a>
+                    </ol>
+                    <br />
+                </li>
+                <li>For each department show the history of the&nbsp; maximum salary for the employees
+                    in that department.</li>
+                    <br />
+                    <ol>
+                        <a href="util.xquery">util.xquery</a>
+                        <a href="q7.xquery" style="margin-left:10px;">q7.xquery</a>
+                        <a href="q7.xml" style="margin-left:10px">q7.xml</a>
+                        <a href="q7.xsl" style="margin-left:10px">q7.xsl</a>
+                        <a href="q7_styled.xml" style="margin-left:10px">q7 (styled)</a>
+                        <a href="q7.txt" style="margin-left:10px">explanation</a>
+                    </ol>
+                    <br />
+                <li>Rising: For each department print the maximal periods during which the salaries
+                    of all the employees in the department was rising.</li>
+                    <br />
+                    <ol>
+                        <a href="util.xquery">util.xquery</a>
+                        <a href="q8.xquery" style="margin-left:10px;">q8.xquery</a>
+                        <a href="q8.xml" style="margin-left:10px">q8.xml</a>
+                        <a href="q8.xsl" style="margin-left:10px">q8.xsl</a>
+                        <a href="q8_styled.xml" style="margin-left:10px">q8 (styled)</a>
+                        <a href="q8.txt" style="margin-left:10px">explanation</a>
+                    </ol>
+                    <br />
+            </ol>
+    </body>
+</html>

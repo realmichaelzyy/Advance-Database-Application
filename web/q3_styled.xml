@@ -1,0 +1,120 @@
+<?xml-stylesheet type="text/xsl" href="q3.xsl"?>
+<q3>
+	<department from="1988-05-01" to="1998-05-06" deptno="d001">
+		<name>Marketing</name>
+		<managers>
+			<manager from="1988-05-01" to="1991-10-01" mgrno="110022">
+				<mgno>110022</mgno>
+			</manager>
+			<manager from="1991-10-01" to="1998-05-06" mgrno="110039">
+				<mgno>110039</mgno>
+			</manager>
+		</managers>
+	</department>
+	<department from="1988-05-01" to="1998-05-06" deptno="d002">
+		<name>Finance</name>
+		<managers>
+			<manager from="1988-05-01" to="1989-12-17" mgrno="110085">
+				<mgno>110085</mgno>
+			</manager>
+			<manager from="1989-12-17" to="1998-05-06" mgrno="110114">
+				<mgno>110114</mgno>
+			</manager>
+		</managers>
+	</department>
+	<department from="1988-05-01" to="1998-05-06" deptno="d003">
+		<name>Human Resources</name>
+		<managers>
+			<manager from="1988-05-01" to="1992-03-21" mgrno="110183">
+				<mgno>110183</mgno>
+			</manager>
+			<manager from="1992-03-21" to="1998-05-06" mgrno="110228">
+				<mgno>110228</mgno>
+			</manager>
+		</managers>
+	</department>
+	<department from="1988-05-01" to="1998-05-06" deptno="d004">
+		<name>Production</name>
+		<managers>
+			<manager from="1988-05-01" to="1988-09-09" mgrno="110303">
+				<mgno>110303</mgno>
+			</manager>
+			<manager from="1988-09-09" to="1992-08-02" mgrno="110344">
+				<mgno>110344</mgno>
+			</manager>
+			<manager from="1992-08-02" to="1996-08-30" mgrno="110386">
+				<mgno>110386</mgno>
+			</manager>
+			<manager from="1996-08-30" to="1998-05-06" mgrno="110420">
+				<mgno>110420</mgno>
+			</manager>
+		</managers>
+	</department>
+	<department from="1988-05-01" to="1998-05-06" deptno="d005">
+		<name>Development</name>
+		<managers>
+			<manager from="1988-05-01" to="1992-04-25" mgrno="110511">
+				<mgno>110511</mgno>
+			</manager>
+			<manager from="1992-04-25" to="1998-05-06" mgrno="110567">
+				<mgno>110567</mgno>
+			</manager>
+		</managers>
+	</department>
+	<department from="1988-05-01" to="1998-05-06" deptno="d006">
+		<name>Quality Management</name>
+		<managers>
+			<manager from="1988-05-01" to="1989-05-06" mgrno="110725">
+				<mgno>110725</mgno>
+			</manager>
+			<manager from="1989-05-06" to="1991-09-12" mgrno="110765">
+				<mgno>110765</mgno>
+			</manager>
+			<manager from="1991-09-12" to="1994-06-28" mgrno="110800">
+				<mgno>110800</mgno>
+			</manager>
+			<manager from="1994-06-28" to="1998-05-06" mgrno="110854">
+				<mgno>110854</mgno>
+			</manager>
+		</managers>
+	</department>
+	<department from="1988-05-01" to="1998-05-06" deptno="d007">
+		<name>Sales</name>
+		<managers>
+			<manager from="1988-05-01" to="1991-03-07" mgrno="111035">
+				<mgno>111035</mgno>
+			</manager>
+			<manager from="1991-03-07" to="1998-05-06" mgrno="111133">
+				<mgno>111133</mgno>
+			</manager>
+		</managers>
+	</department>
+	<department from="1988-05-01" to="1998-05-06" deptno="d008">
+		<name>Research</name>
+		<managers>
+			<manager from="1988-05-01" to="1991-04-08" mgrno="111400">
+				<mgno>111400</mgno>
+			</manager>
+			<manager from="1991-04-08" to="1998-05-06" mgrno="111534">
+				<mgno>111534</mgno>
+			</manager>
+		</managers>
+	</department>
+	<department from="1988-05-01" to="1998-05-06" deptno="d009">
+		<name>Cuustomer Service</name>
+		<managers>
+			<manager from="1988-05-01" to="1988-10-17" mgrno="111692">
+				<mgno>111692</mgno>
+			</manager>
+			<manager from="1988-10-17" to="1992-09-08" mgrno="111784">
+				<mgno>111784</mgno>
+			</manager>
+			<manager from="1992-09-08" to="1996-01-03" mgrno="111877">
+				<mgno>111877</mgno>
+			</manager>
+			<manager from="1996-01-03" to="1998-05-06" mgrno="111939">
+				<mgno>111939</mgno>
+			</manager>
+		</managers>
+	</department>
+</q3>

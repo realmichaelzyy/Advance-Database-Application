@@ -1,0 +1,29 @@
+<q8>
+	<department deptno="d001">
+		<rising from="1986-01-16" to="1989-09-24"/>
+	</department>
+	<department deptno="d002">
+		<rising from="1985-10-14" to="1992-05-31"/>
+	</department>
+	<department deptno="d003">
+		<rising from="1985-10-14" to="1987-10-20"/>
+	</department>
+	<department deptno="d004">
+		<rising from="1985-02-15" to="1987-06-08"/>
+	</department>
+	<department deptno="d005">
+		<rising from="1985-02-24" to="1986-02-24"/>
+	</department>
+	<department deptno="d006">
+		<rising from="1985-02-18" to="1988-10-07"/>
+	</department>
+	<department deptno="d007">
+		<rising from="1985-02-21" to="1988-02-21"/>
+	</department>
+	<department deptno="d008">
+		<rising from="1985-06-05" to="1986-06-05"/>
+	</department>
+	<department deptno="d009">
+		<rising from="1985-02-18" to="1991-02-17"/>
+	</department>
+</q8>

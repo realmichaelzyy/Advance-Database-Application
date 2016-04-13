@@ -1,0 +1,189 @@
+<?xml-stylesheet type="text/xsl" href="q7.xsl"?>
+<q7>
+	<department deptno="d001">
+		<history from="1986-01-16" to="1987-03-28">55316</history>
+		<history from="1987-03-28" to="1988-04-25">88991</history>
+		<history from="1988-04-25" to="1988-09-24">90386</history>
+		<history from="1988-09-24" to="1990-01-17">91690</history>
+		<history from="1990-01-17" to="1991-06-24">93760</history>
+		<history from="1991-06-24" to="1992-04-27">94623</history>
+		<history from="1992-04-27" to="1993-01-28">95258</history>
+		<history from="1993-01-28" to="1994-08-15">95769</history>
+		<history from="1994-08-15" to="1995-07-22">95745</history>
+		<history from="1995-07-22" to="1996-05-04">98799</history>
+		<history from="1996-05-04" to="1996-10-04">101723</history>
+		<history from="1996-10-04" to="1998-03-16">103794</history>
+		<history from="1998-03-16" to="1999-03-20">106127</history>
+		<history from="1999-03-20" to="1999-05-15">89626</history>
+		<history from="1999-05-15" to="1999-12-06">91985</history>
+		<history from="1999-12-06" to="2001-10-20">98522</history>
+		<history from="2001-10-20" to="9999-12-31">99651</history>
+	</department>
+	<department deptno="d002">
+		<history from="1985-10-14" to="1988-09-02">63968</history>
+		<history from="1988-09-02" to="1989-06-03">68993</history>
+		<history from="1989-06-03" to="1990-09-07">73294</history>
+		<history from="1990-09-07" to="1990-12-25">74366</history>
+		<history from="1990-12-25" to="1991-06-26">76148</history>
+		<history from="1991-06-26" to="1991-11-23">83609</history>
+		<history from="1991-11-23" to="1992-03-21">85757</history>
+		<history from="1992-03-21" to="1993-02-06">86167</history>
+		<history from="1993-02-06" to="1994-03-17">86612</history>
+		<history from="1994-03-17" to="1995-03-07">89372</history>
+		<history from="1995-03-07" to="1995-08-29">93438</history>
+		<history from="1995-08-29" to="1997-02-14">94711</history>
+		<history from="1997-02-14" to="1997-10-23">97719</history>
+		<history from="1997-10-23" to="1999-03-03">101127</history>
+		<history from="1999-03-03" to="2000-03-03">102345</history>
+		<history from="2000-03-03" to="2000-08-10">105719</history>
+		<history from="2000-08-10" to="2002-01-01">108148</history>
+		<history from="2002-01-01" to="9999-12-31">109964</history>
+	</department>
+	<department deptno="d003">
+		<history from="1985-10-14" to="1986-08-22">56720</history>
+		<history from="1986-08-22" to="1987-09-21">60264</history>
+		<history from="1987-09-21" to="1988-09-02">63968</history>
+		<history from="1988-09-02" to="1989-09-12">78228</history>
+		<history from="1989-09-12" to="1991-05-21">82621</history>
+		<history from="1991-05-21" to="1992-06-04">83735</history>
+		<history from="1992-06-04" to="1994-04-29">85572</history>
+		<history from="1994-04-29" to="1995-08-05">86050</history>
+		<history from="1995-08-05" to="1996-12-20">89268</history>
+		<history from="1996-12-20" to="1997-07-16">90455</history>
+		<history from="1997-07-16" to="1999-05-17">93299</history>
+		<history from="1999-05-17" to="1999-12-06">93833</history>
+		<history from="1999-12-06" to="2000-03-03">92125</history>
+		<history from="2000-03-03" to="9999-12-31">96471</history>
+	</department>
+	<department deptno="d004">
+		<history from="1985-02-15" to="1985-05-13">40000</history>
+		<history from="1985-05-13" to="1986-05-12">54505</history>
+		<history from="1986-05-12" to="1987-05-18">63061</history>
+		<history from="1987-05-18" to="1988-04-15">66482</history>
+		<history from="1988-04-15" to="1989-04-08">69667</history>
+		<history from="1989-04-08" to="1989-09-19">73769</history>
+		<history from="1989-09-19" to="1990-05-25">75661</history>
+		<history from="1990-05-25" to="1990-08-17">76780</history>
+		<history from="1990-08-17" to="1991-05-17">78466</history>
+		<history from="1991-05-17" to="1992-05-13">80896</history>
+		<history from="1992-05-13" to="1993-05-21">81153</history>
+		<history from="1993-05-21" to="1994-05-21">84595</history>
+		<history from="1994-05-21" to="1995-05-07">85973</history>
+		<history from="1995-05-07" to="1996-05-16">88824</history>
+		<history from="1996-05-16" to="1997-07-16">92900</history>
+		<history from="1997-07-16" to="1998-04-25">92446</history>
+		<history from="1998-04-25" to="1999-05-07">95830</history>
+		<history from="1999-05-07" to="2000-01-21">96169</history>
+		<history from="2000-01-21" to="2001-04-14">96395</history>
+		<history from="2001-04-14" to="2002-05-06">97640</history>
+		<history from="2002-05-06" to="9999-12-31">101239</history>
+	</department>
+	<department deptno="d005">
+		<history from="1985-02-24" to="1986-01-11">66280</history>
+		<history from="1986-01-11" to="1986-04-10">69736</history>
+		<history from="1986-04-10" to="1987-01-27">70375</history>
+		<history from="1987-01-27" to="1987-11-04">73259</history>
+		<history from="1987-11-04" to="1988-02-10">74014</history>
+		<history from="1988-02-10" to="1988-05-10">76616</history>
+		<history from="1988-05-10" to="1988-10-31">76648</history>
+		<history from="1988-10-31" to="1989-10-06">78885</history>
+		<history from="1989-10-06" to="1990-02-01">79310</history>
+		<history from="1990-02-01" to="1991-02-19">82819</history>
+		<history from="1991-02-19" to="1992-02-02">84064</history>
+		<history from="1992-02-02" to="1993-05-01">86445</history>
+		<history from="1993-05-01" to="1994-06-28">90341</history>
+		<history from="1994-06-28" to="1995-04-02">89891</history>
+		<history from="1995-04-02" to="1996-04-22">94064</history>
+		<history from="1996-04-22" to="1997-05-02">97898</history>
+		<history from="1997-05-02" to="1998-04-13">100587</history>
+		<history from="1998-04-13" to="1999-05-13">102901</history>
+		<history from="1999-05-13" to="2000-02-04">105128</history>
+		<history from="2000-02-04" to="2001-04-15">105845</history>
+		<history from="2001-04-15" to="2002-01-31">106912</history>
+		<history from="2002-01-31" to="9999-12-31">110212</history>
+	</department>
+	<department deptno="d006">
+		<history from="1985-02-18" to="1986-01-27">60929</history>
+		<history from="1986-01-27" to="1987-01-02">64604</history>
+		<history from="1987-01-02" to="1987-08-03">64780</history>
+		<history from="1987-08-03" to="1988-12-19">71692</history>
+		<history from="1988-12-19" to="1989-05-17">71258</history>
+		<history from="1989-05-17" to="1991-09-18">74833</history>
+		<history from="1991-09-18" to="1992-08-30">76596</history>
+		<history from="1992-08-30" to="1993-05-14">79291</history>
+		<history from="1993-05-14" to="1994-04-04">82845</history>
+		<history from="1994-04-04" to="1995-01-03">85416</history>
+		<history from="1995-01-03" to="1996-06-12">87979</history>
+		<history from="1996-06-12" to="1997-10-03">89492</history>
+		<history from="1997-10-03" to="1998-09-26">92911</history>
+		<history from="1998-09-26" to="1999-08-09">95743</history>
+		<history from="1999-08-09" to="2000-10-03">95845</history>
+		<history from="2000-10-03" to="2001-04-25">98340</history>
+		<history from="2001-04-25" to="9999-12-31">100894</history>
+	</department>
+	<department deptno="d007">
+		<history from="1985-02-21" to="1986-03-01">76387</history>
+		<history from="1986-03-01" to="1986-10-29">78957</history>
+		<history from="1986-10-29" to="1987-03-30">81790</history>
+		<history from="1987-03-30" to="1987-08-03">82217</history>
+		<history from="1987-08-03" to="1988-06-13">87964</history>
+		<history from="1988-06-13" to="1989-06-05">92176</history>
+		<history from="1989-06-05" to="1990-06-14">100715</history>
+		<history from="1990-06-14" to="1991-05-28">104925</history>
+		<history from="1991-05-28" to="1992-08-31">106126</history>
+		<history from="1992-08-31" to="1992-11-11">106071</history>
+		<history from="1992-11-11" to="1993-01-28">106905</history>
+		<history from="1993-01-28" to="1993-10-17">108816</history>
+		<history from="1993-10-17" to="1994-07-05">110731</history>
+		<history from="1994-07-05" to="1994-11-13">112892</history>
+		<history from="1994-11-13" to="1995-07-24">113812</history>
+		<history from="1995-07-24" to="1996-08-03">117295</history>
+		<history from="1996-08-03" to="1997-06-08">118419</history>
+		<history from="1997-06-08" to="1998-03-16">118656</history>
+		<history from="1998-03-16" to="1999-08-07">122275</history>
+		<history from="1999-08-07" to="2000-09-23">125947</history>
+		<history from="2000-09-23" to="2001-01-09">121296</history>
+		<history from="2001-01-09" to="2001-12-23">121055</history>
+		<history from="2001-12-23" to="9999-12-31">120872</history>
+	</department>
+	<department deptno="d008">
+		<history from="1985-06-05" to="1985-11-20">55999</history>
+		<history from="1985-11-20" to="1987-04-16">56848</history>
+		<history from="1987-04-16" to="1987-09-18">58001</history>
+		<history from="1987-09-18" to="1987-09-20">58221</history>
+		<history from="1987-09-20" to="1987-10-30">61306</history>
+		<history from="1987-10-30" to="1988-05-10">69604</history>
+		<history from="1988-05-10" to="1990-01-15">70812</history>
+		<history from="1990-01-15" to="1990-09-15">74532</history>
+		<history from="1990-09-15" to="1991-12-08">76698</history>
+		<history from="1991-12-08" to="1992-12-28">77594</history>
+		<history from="1992-12-28" to="1993-08-22">78713</history>
+		<history from="1993-08-22" to="1994-10-10">82172</history>
+		<history from="1994-10-10" to="1995-12-03">85849</history>
+		<history from="1995-12-03" to="1996-11-18">87343</history>
+		<history from="1996-11-18" to="1997-11-08">87502</history>
+		<history from="1997-11-08" to="1999-01-24">87733</history>
+		<history from="1999-01-24" to="1999-05-27">87340</history>
+		<history from="1999-05-27" to="2000-07-09">90690</history>
+		<history from="2000-07-09" to="9999-12-31">96322</history>
+	</department>
+	<department deptno="d009">
+		<history from="1985-02-18" to="1985-09-08">40000</history>
+		<history from="1985-09-08" to="1988-06-06">88991</history>
+		<history from="1988-06-06" to="1989-06-29">90386</history>
+		<history from="1989-06-29" to="1990-04-07">91690</history>
+		<history from="1990-04-07" to="1990-10-19">93760</history>
+		<history from="1990-10-19" to="1992-06-09">94623</history>
+		<history from="1992-06-09" to="1993-03-31">95258</history>
+		<history from="1993-03-31" to="1994-08-15">95769</history>
+		<history from="1994-08-15" to="1995-04-26">95745</history>
+		<history from="1995-04-26" to="1996-03-29">98799</history>
+		<history from="1996-03-29" to="1996-11-09">101723</history>
+		<history from="1996-11-09" to="1998-07-05">103794</history>
+		<history from="1998-07-05" to="1999-01-24">106127</history>
+		<history from="1999-01-24" to="1999-07-17">87639</history>
+		<history from="1999-07-17" to="2000-08-15">91296</history>
+		<history from="2000-08-15" to="2000-10-27">95451</history>
+		<history from="2000-10-27" to="9999-12-31">98003</history>
+	</department>
+</q7>
